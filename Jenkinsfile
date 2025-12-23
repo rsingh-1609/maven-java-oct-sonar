@@ -29,5 +29,4 @@ sh "$maven/bin/mvn deploy"
 }
 */
 
-}
 }//Node closing
