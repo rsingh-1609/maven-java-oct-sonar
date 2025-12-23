@@ -1,5 +1,8 @@
 node{
 def mavenHome = tool name: "maven2"
+echo "the node name is : --> ${env.NODE_NAME}"
+echo "the job namne is  : --> ${env.JOB_NAME}"
+echo "bulid number is : --> ${BUILD_NUMBER}"
 /*def maven = tool name: "latest"
 
 
